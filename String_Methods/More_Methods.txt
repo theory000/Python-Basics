@@ -1,0 +1,69 @@
+capitalize()	Converts the first letter of a string to uppercase.
+
+casefold()	Converts a string to lowercase, ignoring case.
+
+center()	Returns a centered string, with a specified number of characters on each side.
+
+count()	Returns the number of times a specified substring occurs in a string.
+
+encode()	Returns an encoded version of the string. The encoding can be specified as an argument.
+
+endswith()	Returns True if the string ends with the specified substring.
+
+expandtabs()	Replaces all tab characters in a string with the specified number of spaces.
+
+find()	Returns the index of the first occurrence of the specified substring in a string. If the substring is not found, -1 is returned.
+
+format()	Returns a formatted version of the string. The format string can contain variables, which will be replaced with their corresponding values.
+
+format_map()	Similar to the `format()` method, but uses a dictionary to map variables to their corresponding values.
+
+index()	Similar to the `find()` method, but raises an exception if the substring is not found.
+
+isalnum()	Returns True if all characters in a string are alphanumeric.
+
+isalpha()	Returns True if all characters in a string are alphabetic.
+
+isdecimal()	Returns True if all characters in a string are decimal digits.
+
+isdigit()	Returns True if all characters in a string are digits.
+
+isidentifier()	Returns True if a string is a valid Python identifier.
+
+islower()	Returns True if all characters in a string are lowercase.
+
+isnumeric()	Returns True if all characters in a string are numeric.
+
+isprintable()	Returns True if all characters in a string are printable.
+
+join()	Joins a sequence of strings together with a specified separator.
+
+ljust()	Returns a left-justified string, with a specified number of characters on the right side.
+
+lower()	Converts a string to lowercase.
+
+lstrip()	Removes all leading whitespace characters from a string.
+
+replace()	Replaces all occurrences of a specified substring with another substring.
+
+rfind()	Returns the index of the last occurrence of the specified substring in a string.
+
+rindex()	Similar to the `rfind()` method, but raises an exception if the substring is not found.
+
+rjust()	Returns a right-justified string, with a specified number of characters on the left side.
+
+rstrip()	Removes all trailing whitespace characters from a string.
+
+split()	Splits a string into a list of substrings, based on a specified delimiter.
+
+splitlines()	Splits a string into a list of lines, breaking at newline characters.
+
+startswith()	Returns True if the string starts with the specified substring.
+
+strip()	Removes all leading and trailing whitespace characters from a string.
+
+swapcase()	Swaps the case of all characters in a string.
+
+title()	Converts the first letter of each word in a string to uppercase.
+
+upper()	Converts a string to uppercase.

@@ -1,0 +1,28 @@
+**Sequence of Characters in Python:**
+
+A sequence of characters in Python is called a **string**. Strings are used to represent text and are enclosed in either single (' '), double (" "), or triple (''' ''' or """ """) quotation marks. Strings are ummutable, means they do not change when a string methods is applied they just replicate the original one. Here are some examples:
+
+- **Single-Quoted String**:
+  single_quoted = 'Hello, Python!'
+
+- **Double-Quoted String**:
+  double_quoted = "This is a string."
+
+- **Triple-Quoted String (Multi-line)**:
+  triple_quoted = '''This is a
+  multi-line
+  string.'''
+
+Strings can be manipulated, sliced, and combined to perform various text operations in Python. They are essential for working with textual data.
+
+
+An index in Python is a numeric position that represents the location of an element within a sequence, such as a string, list, or tuple. Indexing in Python starts from 0 for the first element.
+
+- **Example**:
+  my_string = "Hello, Python!"
+  first_char = my_string[0]  # Index 0 is 'H'
+
+- Negative indexing can be used to access elements from the end of the sequence.
+  last_char = my_string[-1]  # Index -1 is '!'
+
+Understanding and using indices is fundamental for accessing and manipulating data in Python sequences.

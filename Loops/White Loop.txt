@@ -1,0 +1,67 @@
+**While Loops in Short:**
+
+A `while` loop repeatedly executes a block of code as long as a specified condition is `True`. It's used when you don't know in advance how many times the code needs to be executed.
+
+**Syntax:**
+
+while condition:
+    # Code to execute
+
+**Example:**
+
+count = 1
+while count <= 5:
+    print(f"Count is {count}")
+    count += 1
+=
+**Explanation:**
+
+1. `count = 1` - Initializes a variable `count` to 1.
+
+2. `while count <= 5:` - Checks if the condition (`count` is less than or equal to 5) is true.
+
+3. `print(f"Count is {count}")` - Prints the value of `count`.
+
+4. `count += 1` - Increments the value of `count` by 1.
+
+5. The loop continues until the condition becomes `False`.
+
+**Additional Functions**:
+
+- `break`: Exits the loop prematurely if a certain condition is met.
+
+- `continue`: Skips the rest of the loop and goes back to the start of the loop.
+
+**Example with break:**
+
+count = 1
+while count <= 5:
+    print(f"Count is {count}")
+    if count == 3:
+        break
+    count += 1
+
+Output:
+Count is 1
+Count is 2
+Count is 3
+
+In this example, the loop breaks when `count` reaches 3.
+
+**Example with continue:**
+
+count = 1
+while count <= 5:
+    if count == 3:
+        count += 1
+        continue
+    print(f"Count is {count}")
+    count += 1
+
+Output:
+Count is 1
+Count is 2
+Count is 4
+Count is 5
+
+In this example, when `count` is 3, it skips the `print` statement and goes back to the start of the loop.

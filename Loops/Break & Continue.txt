@@ -1,0 +1,25 @@
+Sure. The `break` and `continue` statements in Python are used to control the flow of a loop.
+
+The `break` statement terminates the loop immediately, even if the loop condition is still true.
+
+The `continue` statement skips the rest of the current iteration of the loop and goes to the next iteration.
+
+Here is an example of a `break` statement:
+
+for i in range(10):
+  if i == 5:
+    break
+  print(i)
+
+This code will print the numbers from 0 to 9. However, when the value of `i` is 5, the `break` statement will be executed, which will terminate the loop.
+
+Here is an example of a `continue` statement:
+
+for i in range(10):
+  if i % 2 == 0:
+    continue
+  print(i)
+
+This code will print the odd numbers from 1 to 9. The `continue` statement will skip the even numbers.
+
+I hope this helps! Let me know if you have any other questions.

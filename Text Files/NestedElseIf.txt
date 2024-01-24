@@ -1,0 +1,32 @@
+**Nested if-elif-else Statements**:
+
+- Nested if-elif-else statements allow you to create more complex decision-making structures in Python.
+
+- You can have if-elif-else blocks inside other if-elif-else blocks.
+
+- They help you handle multiple conditions and execute specific code based on the first condition that evaluates to true.
+
+**Example**:
+
+if condition1:
+    # Code block 1
+    if condition2:
+        # Code block 2
+    else:
+        # Code block 3
+elif condition3:
+    # Code block 4
+else:
+    # Code block 5
+
+**Explanation**:
+
+- If `condition1` is true, it enters the first `if` block and checks `condition2`. Depending on the result, it executes either code block 2 or 3.
+
+- If `condition1` is false and `condition3` is true, it enters the first `elif` block and executes code block 4.
+
+- If none of the conditions are met, it executes code block 5 inside the `else` block.
+
+**Use Cases**:
+
+- Nested if-elif-else statements are useful when you need to handle multiple conditions in a structured way, making your code more organized and readable.

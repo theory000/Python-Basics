@@ -1,0 +1,13 @@
+In Python, the `input()` function is used to collect user input from the keyboard. It displays a prompt (usually a message or question) and waits for the user to type something. The input provided by the user is returned as a string.
+
+Here's a brief explanation with an example:
+
+**Example:**
+name = input("Enter your name: ")  # Display a prompt and wait for input
+print("Hello, " + name + "!")       # Print a personalized message
+
+In this example, the `input("Enter your name: ")` statement prompts the user to enter their name. The text they type is stored in the variable `name`, and then a greeting message is printed using their name.
+
+Keep in mind that the `input()` function always returns a string, so if you want to use the input as a number or perform numeric operations, you need to convert the string to the desired data type using functions like `int()` or `float()`.
+
+Btw I learnt it later that we use '+' to contatenate the string so if we use ',' we will get a tuple not a string 

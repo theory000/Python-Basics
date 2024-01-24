@@ -1,0 +1,30 @@
+Here are the data types in Python with examples:
+
+1. **Integers (`int`)**: Whole numbers.
+   age = 25
+
+2. **Floating-Point Numbers (`float`)**: Numbers with decimal points.
+   price = 19.99
+
+3. **Strings (`str`)**: Textual data.
+   name = "Alice"
+
+4. **Booleans (`bool`)**: Represents True or False values.
+   is_valid = True
+
+5. **Lists (`list`)**: Ordered collections.
+   numbers = [1, 2, 3, 4]
+
+6. **Tuples (`tuple`)**: Immutable ordered collections.
+   coordinates = (10, 20)
+
+7. **Sets (`set`)**: Unordered collections of unique items.
+   unique_numbers = {1, 2, 3, 4}
+
+8. **Dictionaries (`dict`)**: Key-value pairs for mapping.
+   person = {"name": "Bob", "age": 30}
+
+9. **NoneType (`None`)**: Represents the absence of a value.
+   result = None
+
+These examples showcase how each data type is used to store different types of information in Python.

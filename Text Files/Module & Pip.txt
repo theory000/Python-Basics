@@ -1,0 +1,16 @@
+MODULES:
+Modules prevent reinventing the wheel by leveraging existing, expert-tested solutions, ensuring error-free functionality.
+
+Modules allow us to reuse existing code. There are two types:
+1. Built-in Modules: Pre-existing in Python, no installation required.
+2. External Modules: Written by others for our use.
+
+Pip:
+Pip serves as a driver fetching groceries, or modules, from the internet market and delivering them to us—installing modules in a nutshell.
+
+Module installation involves using pip.
+
+Utilizing our initial module:
+1. Access the terminal (ctrl + `) and enter 'pip' for a list of pip commands.
+2. Install our first module with 'pip install pandas'.
+3. This installs our first module, 'pandas'.

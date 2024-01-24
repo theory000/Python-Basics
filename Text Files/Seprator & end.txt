@@ -1,0 +1,22 @@
+Sep
+The `sep="~"` argument in `print("hey", 6, 7, sep="~")` sets the separator between printed values as a tilde (~) character.
+
+Example:
+print("apple", "banana", "cherry", sep="~")
+
+Output:
+apple~banana~cherry
+
+In this example, the values "apple", "banana", and "cherry" are printed with a tilde (~) as the separator.
+
+End:
+The `end=""` argument in `print("Hello", end="")` specifies what character or string to append at the end of the print statement instead of the default newline.
+
+Example:
+print("Hello", end=" ")
+print("World")
+
+Output:
+Hello World
+
+In this example, the `end=" "` ensures that the second `print` statement is appended with a space instead of a newline, resulting in the words "Hello World" being printed on the same line.

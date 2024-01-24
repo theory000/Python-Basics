@@ -1,0 +1,13 @@
+In programming, we use the 'print' function to display content in our program. For example:
+
+print("Hello, world!", 5)  # Output: Hello, world! 5
+print(4 + 6)  # Output: 10
+
+Python executes code sequentially, line by line. This means each line is processed in the order it appears in the program.
+
+You can also print the results of mathematical functions:
+
+print(2 * 3)  # Output: 6
+print(10 / 2)  # Output: 5.0
+
+This showcases the basic usage of the 'print' function and how Python processes code step by step.

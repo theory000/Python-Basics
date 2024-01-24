@@ -1,0 +1,29 @@
+Escape sequence characters are special combinations of characters that are used in strings to represent certain non-printable or reserved characters. They begin with a backslash `\` followed by a character code, and they are used to include characters that are hard to type or might be misinterpreted within a string.
+
+For example:
+
+`\n` represents a newline character.
+`\t` represents a tab character.
+`\"` represents a double quotation mark character.
+`\'` represents a single quotation mark character.
+`\\` represents a literal backslash character.
+
+Here's a brief explanation of each:
+
+`\n`: Inserts a new line.
+`\t`: Inserts a tab.
+`\"`: Inserts a double quotation mark.
+`\'`: Inserts a single quotation mark.
+`\\`: Inserts a backslash.
+
+Usage example:
+
+print("This is a new line:\nAnd this is a tab:\tEnd.")
+print("He said, \"Hello!\"")
+
+Output:
+This is a new line:
+And this is a tab:    End.
+He said, "Hello!"
+
+Escape sequences make it possible to include special characters in strings without causing syntax errors or unintended behavior.

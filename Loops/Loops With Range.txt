@@ -1,0 +1,29 @@
+**Range Loop in Simple Terms:**
+
+A range loop is a way to repeat a block of code a specific number of times. It's like saying, "Do this thing a certain number of times." 
+
+**Explanation:**
+
+- **Syntax**:
+
+  for i in range(start, stop, step):
+      # Code to repeat
+
+- `start` is where you want to begin.
+- `stop` is where you want to stop (not inclusive).
+- `step` is how much you want to move by (optional, default is 1).
+
+**Example:**
+
+for i in range(1, 6):  # Starts at 1, stops before 6, with a step of 1 (default)
+    print(f"Hello, number {i}!")
+
+**Output**:
+
+Hello, number 1!
+Hello, number 2!
+Hello, number 3!
+Hello, number 4!
+Hello, number 5!
+
+In this example, the loop runs from 1 to 5 (inclusive) and executes the code inside the loop for each of those numbers. It's a simple way to repeat a task a known number of times.

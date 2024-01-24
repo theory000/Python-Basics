@@ -1,0 +1,14 @@
+A do while loop is a control flow statement that executes a block of code at least once, then repeatedly executes the block of code as long as a given boolean condition is true.
+
+Here is an example of a do while loop in Python:
+
+number = 0
+
+do:
+  print(number)
+  number += 1
+while number < 10
+
+This loop will print the numbers from 0 to 9. The first time the loop executes, the condition `number < 10` is true, so the body of the loop is executed. The body of the loop simply prints the value of `number`. Then, the control flow goes back to the beginning of the loop and the condition is checked again. This process continues until the condition becomes false, which is when `number` is equal to 10.
+
+I hope this helps! Let me know if you have any other questions.

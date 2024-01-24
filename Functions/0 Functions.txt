@@ -1,0 +1,56 @@
+A Python function is a block of code that performs a specific task. It is defined using the `def` keyword, followed by the function name, parentheses, and a colon. The body of the function is indented, and it can contain any valid Python code.
+
+Here is an example of a Python function that defines a function called `add_two_numbers()`, which adds two numbers together:
+
+def add_two_numbers(a, b):
+  """This function adds two numbers together."""
+  return a + b
+
+To call a function, you use its name, followed by parentheses and the arguments that you want to pass to the function. For example, the following code calls the `add_two_numbers()` function and prints the result:
+
+print(add_two_numbers(1, 2))
+
+This code will print the number 3, which is the result of adding 1 and 2 together.
+
+Functions can be used to make your code more organized and reusable. By defining functions, you can group related code together and make it easier to read and understand. You can also use functions to avoid repeating yourself, which can help you to write more concise and efficient code.
+
+Here are some other examples of Python functions:
+
+* A function that checks if a number is even or odd.
+* A function that reverses a string.
+* A function that calculates the factorial of a number.
+* A function that searches for a value in a list.
+
+Functions can be used to do almost anything in Python. The possibilities are endless!
+
+Most commonly used In-Built Functions:
+
+Here are some of the most commonly used built-in functions in Python with 1 example each:
+
+1 **print():** Prints text or variables to the console.
+    * Example: `print("Hello, world!`)
+
+2 **len():** Returns the length of a string, list, tuple, or other iterable object.
+    * Example: `len("Hello, world!")` = 13
+    
+3 **type():** Returns the type of an object.
+    * Example: `type("Hello, world!")` = str
+* **abs():** Returns the absolute value of a number.
+    * Example: `abs(-10)` = 10
+
+4 **round():** Rounds a number to a specified number of decimal places.
+    * Example: `round(1.2345, 2)` = 1.23
+
+5 **max():** Returns the maximum value of an iterable object.
+    * Example: `max([1, 2, 3, 4, 5])` = 5
+
+6 **min():** Returns the minimum value of an iterable object.
+    * Example: `min([1, 2, 3, 4, 5])` = 1
+
+7 **sum():** Returns the sum of the elements of an iterable object.
+    * Example: `sum([1, 2, 3, 4, 5])` = 15
+    
+8 **sorted():** Sorts an iterable object in ascending order.
+    * Example: `sorted([1, 5, 3, 2, 4])` = [1, 2, 3, 4, 5]
+
+These are just a few of the many built-in functions that are available in Python. You can learn more about them by reading the Python documentation.

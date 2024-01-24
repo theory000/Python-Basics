@@ -1,0 +1,15 @@
+A match-case statement is a new feature in Python 3.10 that allows you to match the value of an expression against a series of patterns and execute the corresponding block of code for the matched pattern. It is similar to an if-elif-else statement, but it is more concise and expressive.
+
+Here is an example of a match-case statement:
+
+match expression:
+    case value1:
+        # Do something when the value is value1
+    case value2:
+        # Do something when the value is value2
+    case _:
+        # Do something when the value does not match any of the previous cases
+
+In this example, the expression `expression` is matched against the values `value1` and `value2`. If the value of `expression` is equal to `value1`, the block of code under the `case value1:` clause will be executed. If the value of `expression` is equal to `value2`, the block of code under the `case value2:` clause will be executed. Otherwise, the block of code under the `case _:` clause will be executed.
+
+The `_` pattern matches any value. This means that the `case _:` clause will be executed if the value of `expression` does not match any of the previous cases.

@@ -1,0 +1,17 @@
+Comments provide explanatory notes in code. They're not executed but aid programmers in understanding. For example:
+
+# This is a comment explaining the following code
+variable = 5
+
+Comments enhance code readability and collaboration.
+
+Comment shortcut: To comment a line without typing `#`, you can use the shortcut `Ctrl + /` or the VS Code universal shortcut `Ctrl + C` followed by `Ctrl + U`.
+
+Multi-line comments are created using triple single quotes `'''...'''` or triple double quotes `"""..."""`. They can span multiple lines and are often used for adding explanations or notes to code.
+Example:
+'''
+This is a multi-line comment.
+It provides context or explanations.
+'''
+print("Hello, world!")
+We can also use " instead of '

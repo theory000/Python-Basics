@@ -1,0 +1,51 @@
+In short, function arguments are the values that we pass to a function when we call it. They allow us to provide the function with the information it needs to do its job.
+
+For example, here is a simple function that adds two numbers together:
+
+```python
+def add(a, b):
+  return a + b
+```
+
+This function has two parameters, `a` and `b`. When we call the function, we need to pass in two values for these parameters. For example, we could call the function like this:
+
+```python
+result = add(1, 2)
+```
+
+This will pass the values `1` and `2` to the parameters `a` and `b`, respectively. The function will then add these two numbers together and return the result. We can then store the result in a variable, `result`, and print it to the console:
+
+```python
+print(result)
+```
+
+This will print the number `3` to the console, since 1 + 2 = 3.
+
+Function arguments can be of any type, including numbers, strings, lists, and even other functions. They can also be required or optional. Required arguments must be passed in when the function is called, but optional arguments can be omitted.
+
+Here is an example of a function with optional arguments:
+
+```python
+def greet(name, greeting="Hello"):
+  print(f"{greeting}, {name}!")
+```
+
+This function has two parameters, `name` and `greeting`. The `name` parameter is required, but the `greeting` parameter is optional. If we don't pass in a value for the `greeting` parameter, the function will use the default value, "Hello".
+
+We can call this function in a few different ways:
+
+```python
+# Call the function with both arguments
+greet("Bard", "Greetings!")
+
+# Call the function with only the required argument
+greet("Bard")
+```
+
+Both of these calls will print the following message to the console:
+
+```
+Greetings, Bard!
+```
+
+Function arguments are a very powerful tool in programming. They allow us to write reusable code that can be easily customized to meet our specific needs.

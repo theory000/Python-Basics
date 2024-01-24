@@ -1,0 +1,61 @@
+Here are examples of each type of operator:
+
+1. **Arithmetic Operators:**
+x = 10
+y = 3
+addition = x + y
+subtraction = x - y
+multiplication = x * y
+division = x / y
+floor_division = x // y
+remainder = x % y
+exponentiation = x ** y
+
+2. **Comparison Operators:**
+a = 5
+b = 8
+is_equal = a == b
+not_equal = a != b
+less_than = a < b
+greater_than = a > b
+less_equal = a <= b
+greater_equal = a >= b
+
+3. **Logical Operators:**
+p = True
+q = False
+logical_and = p and q
+logical_or = p or q
+logical_not = not p
+
+4. **Assignment Operators:**
+num = 10
+num += 5  # Same as num = num + 5
+num -= 3  # Same as num = num - 3
+num *= 2  # Same as num = num * 2
+num /= 4  # Same as num = num / 4
+
+5. **Bitwise Operators:**
+bitwise_and = 10 & 3   # Bitwise AND
+bitwise_or = 10 | 3    # Bitwise OR
+bitwise_xor = 10 ^ 3   # Bitwise XOR
+bitwise_not = ~10      # Bitwise NOT
+left_shift = 10 << 2   # Left shift by 2 bits
+right_shift = 10 >> 1  # Right shift by 1 bit
+
+6. **Membership Operators:**
+numbers = [1, 2, 3, 4, 5]
+is_present = 3 in numbers
+not_present = 6 not in numbers
+
+7. **Identity Operators:**
+x = [1, 2, 3]
+y = x
+is_same = x is y
+is_not_same = x is not y
+
+8. **Ternary Operator:**
+age = 18
+status = "Adult" if age >= 18 else "Minor"
+
+These examples should help clarify how each type of operator works in Python.
