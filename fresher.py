@@ -1,19 +1,8 @@
-import random
+import time
 
-random_number = random.randint(1, 100)
-guesses = 0
+task = input("Enter the task you need to be reminded about: ")
+interval = int(input("Enter the reminder interval in minutes: "))
 
 while True:
-    guess = int(input("Guess a number between 1 to 100: "))
-
-    if guess == random_number:
-        print("Congrats! You guessed the number!")
-        break
-    elif guess < random_number:
-        print("Too low! Try again.")
-        if guess >= random_number - 10:
-            print("You're getting close")
-    else:
-        print("Too high! Try again.")
-        if guess > random_number + 10:
-            print("You're getting close!")
+    print("Reminder:", task)
+    time.sleep(interval * 60)
