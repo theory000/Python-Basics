@@ -1,4 +1,4 @@
-Sure. The `break` and `continue` statements in Python are used to control the flow of a loop.
+The `break` and `continue` statements in Python are used to control the flow of a loop.
 
 The `break` statement terminates the loop immediately, even if the loop condition is still true.
 
