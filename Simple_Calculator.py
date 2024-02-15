@@ -1,8 +1,8 @@
-a = 10
-b = 6
+a = int(input())
+b = int(input())
 
-print("The value of", a, "+", 3, "is: ", a + b)
-print("The value of", a, "-", 3, "is: ", a - b)
-print("The value of", a, "*", 3, "is: ", a * b)
-print("The value of", a, "/", 3, "is: ", a / b)
-print("The value of", a, "//", 3, "is: ", a // b)
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)
