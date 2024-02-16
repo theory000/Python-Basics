@@ -9,11 +9,11 @@ elif s == 'N' or s == 'n':
 
 # OR
     
-x = input('Do you agree? ')
+x = input('Do you agree? ').lower()
 
-if x.lower() in ['y', 'yes']:
+if x in ['y', 'yes']:
     print("Agree.")
-elif x.lower() in ['N', 'no']:
+elif x in ['N', 'no']:
     print("Not agree.")
 # ---------------------------------
 
@@ -36,3 +36,8 @@ def theory(n):
         print('theory')
 
 main()
+
+before = input("Before: ")
+print("After: ", end="")
+for c in before:
+    print(c.upper(), end="")
