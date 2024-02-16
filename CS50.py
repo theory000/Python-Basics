@@ -55,3 +55,10 @@ def meow(n):
     for i in range(n):
         print("meow")
 main()
+#--------------------------------
+
+x = 2
+y = 13
+z = x / y
+
+print(f"{z:.50f}")
