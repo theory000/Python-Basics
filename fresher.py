@@ -1,15 +1,10 @@
-# for i in range(10):
-#   if i % 3 == 0:
-#     continue
-#   print(i)
+x = input("Do you agree> ").lower() # First way
 
-# number = 0
+# x = x.lower() # Second way
 
-# do:
-#   print(number)
-#   number += 1
-# while number < 10
+if x in ["y", "yes"]:
+    print("Agreed")
+elif x in ["n", "no"]:
+    print( "Not agreed")
 
-colors = ["red","blue","green"]
-for color in colors:
-    print(color)
+# 1:01:32
