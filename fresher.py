@@ -1,5 +1,15 @@
-x = 2
-y = 13
-z = x / y
+def get_int(prompt):
+    while True:
+        try:
+            return int(input(prompt))
+        except ValueError:
+            print("Not an integer")
 
-print(f"{z:.50f}")
+
+def main():
+    x = get_int("x: ")
+    y = get_int("y: ")
+
+    print(x + y)
+
+main()
