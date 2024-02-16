@@ -36,6 +36,7 @@ def theory(n):
         print('theory')
 
 main()
+#---------------------------------
 
 before = input("Before: ")
 print("After: ", end="")
@@ -45,3 +46,12 @@ print()
 #OR
 before = input("Before: ")
 print(f"After: {before.upper()}")
+#---------------------------------
+
+def main():
+    meow(3)
+
+def meow(n):
+    for i in range(n):
+        print("meow")
+main()
