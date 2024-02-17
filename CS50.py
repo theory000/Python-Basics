@@ -79,3 +79,9 @@ def main():
     print(x + y)
 
 main()
+#-------------------------------
+
+scores = [72,45,34]
+
+average = sum(scores) / len(scores)
+print(f"Average: {average}")
