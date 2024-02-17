@@ -81,7 +81,12 @@ def main():
 main()
 #-------------------------------
 
-scores = [72,45,34]
+scores = []
+for i in range(3):
+    score = int(input("Score: "))
+    scores.append(score)
+
+print(scores)
 
 average = sum(scores) / len(scores)
 print(f"Average: {average}")
