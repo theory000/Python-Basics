@@ -1,7 +1,7 @@
 scores = []
 for i in range(3):
     score = int(input("Score: "))
-    scores.append(score)
+    scores.append(score) # OR scores = scores + [score]
 
 print(scores)
 
