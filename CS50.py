@@ -90,3 +90,5 @@ print(scores)
 
 average = sum(scores) / len(scores)
 print(f"Average: {average}")
+
+# 1:44:19
