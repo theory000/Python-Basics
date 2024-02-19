@@ -142,3 +142,10 @@ if names in peoples:
     print(f"Found {numbers}")
 else:
     print("Not found")
+#--------------------------------------
+
+import cowsay
+
+name = input("What's your name? ")
+cowsay.cow(f"hello, {name}")
+cowsay.dragon(f"hello, {name}")
